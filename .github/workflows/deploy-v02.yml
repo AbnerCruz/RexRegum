@@ -33,7 +33,7 @@ jobs:
             .deploy-v02/chunk-05 \
             .deploy-v02/chunk-06 \
             | base64 -d > /tmp/scriptura-v02.tgz
-          echo 'ca8214b22a7467a3c9226a6a54462fda1d894785a2b19e8ed60b0e34f14179a0  /tmp/scriptura-v02.tgz' | sha256sum -c -
+          echo 'b476c91cc82a72e1c8e7a1bddb2d11453b9997f70e82e34b06cc9f803e322907  /tmp/scriptura-v02.tgz' | sha256sum -c -
           tar -xzf /tmp/scriptura-v02.tgz -C .
           test -s index.html
           test -s README.md
