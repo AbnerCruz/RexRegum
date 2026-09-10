@@ -19,7 +19,21 @@ jobs:
       - name: Restore v0.2 files
         shell: bash
         run: |
-          cat .deploy-v02/chunk-* | base64 -d > /tmp/scriptura-v02.tgz
+          cat \
+            .deploy-v02/chunk-00 \
+            .deploy-v02/chunk-01 \
+            .deploy-v02/chunk-02 \
+            .deploy-v02/fix03x-0 \
+            .deploy-v02/fix03x-1 \
+            .deploy-v02/fix03x-2 \
+            .deploy-v02/fix03x-3 \
+            .deploy-v02/fix03x-4 \
+            .deploy-v02/fix03x-5 \
+            .deploy-v02/chunk-04 \
+            .deploy-v02/chunk-05 \
+            .deploy-v02/chunk-06 \
+            | base64 -d > /tmp/scriptura-v02.tgz
+          echo 'ca8214b22a7467a3c9226a6a54462fda1d894785a2b19e8ed60b0e34f14179a0  /tmp/scriptura-v02.tgz' | sha256sum -c -
           tar -xzf /tmp/scriptura-v02.tgz -C .
           test -s index.html
           test -s README.md
