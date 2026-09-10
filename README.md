@@ -1,79 +1,64 @@
-# Scriptura — v0.1
+# Scriptura — v0.2
 
-> Um estudo bíblico progressivo, verificável e centrado na própria Escritura.
+> Um estudo bíblico progressivo, investigável e centrado na própria Escritura.
 
 ## Manifesto
 
-**Scriptura** nasce de uma insatisfação simples: estudos bíblicos frequentemente pedem ao leitor que confie em uma cadeia de autoridades — “fulano disse”, “a tradição afirma”, “o credo define”, “o comentarista interpreta” — antes de permitir que ele examine o texto e a evidência.
+Scriptura é um **website de investigação bíblica**. Não é catálogo de links, feed de artigos, enciclopédia de opiniões nem interface de aplicativo disfarçada de site. O objetivo é permitir que o leitor examine o texto, as relações internas da Escritura e, quando uma afirmação for empiricamente verificável, a própria evidência relevante **sem abandonar a experiência de estudo**.
 
-Este projeto segue o caminho inverso.
+### Autoridade e método
 
-O estudante deve conseguir **ver o texto, comparar o texto, seguir a referência e conferir a fonte**. Quando a questão é doutrinária ou hermenêutica, a argumentação deve ser construída a partir da própria Escritura. Quando a questão é empiricamente verificável — manuscritos, inscrições, objetos, lugares, cronologia, existência de personagens ou acontecimentos historicamente documentáveis — a página deve apontar para a evidência primária ou para a instituição que a preserva.
+Para doutrina, teologia e hermenêutica, o projeto trabalha em regime **sola Scriptura**: nenhuma conclusão é fundamentada em credo, concílio, denominação, comentarista, pai da igreja ou autoridade religiosa externa. A interpretação deve ser construída com texto, contexto, gramática e relações internas da Escritura.
 
-Isso implica duas autoridades de natureza diferente que **não são confundidas**:
+Fontes externas são admitidas somente para fatos externos e testáveis: manuscritos, inscrições, objetos, cronologia, geografia, história material, proveniência, datação e estado de conservação. Elas servem para **examinar o dado**, nunca para decidir doutrina.
 
-- **Escritura para doutrina e interpretação bíblica.** Credos, concílios, denominações, comentaristas, pais da igreja, teólogos e tradições podem existir como objetos históricos, mas não funcionam como autoridade interpretativa do estudo.
-- **Evidência primária para alegações externas ao texto.** Um museu pode mostrar uma inscrição; um acervo pode mostrar um manuscrito; uma escavação pode estabelecer um contexto. Isso não transforma museus ou arqueólogos em autoridades teológicas.
+### Um estudo = um tema
 
-O projeto não chama uma conclusão de “provada” quando a evidência só permite dizer “corroborada”. Cada estudo deve declarar **o que a evidência demonstra, o que ela torna plausível e o que ela não pode demonstrar**.
+Nenhum estudo divide sua unidade com outro tema. “Lei, sacerdócio, sacrifício e santidade”, por exemplo, não é um estudo válido: são temas independentes. Blocos e fases podem agrupar estudos apenas para navegação.
 
-## Para quem é
+A trilha v0.2 contém **1118 estudos atômicos planejados**, distribuídos em 36 blocos de progressão. A numeração organiza a aprendizagem; não atribui maior autoridade a estudos posteriores.
 
-Para quem quer começar do fundamento e avançar até temas complexos sem ser tratado como especialista antes da hora e sem receber simplificações infantis. A dificuldade cresce com o percurso. Conceitos técnicos aparecem quando passam a ser necessários e são explicados no ponto em que entram.
+### Tudo investigável dentro do site
 
-## Experiência de leitura
+Uma referência nunca deve funcionar apenas como saída para outro website. Ao ser ativada, ela abre um **painel interno de investigação** adequado ao tipo de fonte:
 
-O produto é um **site**, publicado em GitHub Pages. Pode receber PWA depois como melhoria progressiva, mas sua navegação principal deve continuar funcionando como web: links, âncoras, páginas compartilháveis, histórico do navegador e layout responsivo.
+- passagem bíblica → tradução → original → estudo do original;
+- manuscrito → imagem/fac-símile → transcrição → variante → metadados → proveniência;
+- inscrição → imagem → linhas → transliteração → tradução → contexto material;
+- artefato → galeria/zoom → ficha técnica → datação → localização → limites da inferência;
+- cronologia → linha do tempo interna;
+- geografia → mapa interno;
+- relação textual → comparação lado a lado;
+- fonte institucional → ficha local da fonte, licença, acervo e botão secundário para abrir a página oficial.
 
-No texto bíblico, a ordem de leitura é deliberada:
+O link externo continua existindo para auditoria, mas **não é o produto**. Uma evidência que não possa ser exibida ou representada legalmente de modo suficiente dentro do site não deve ser usada como peça essencial do argumento até existir uma solução de licenciamento/incorporação.
 
-1. **tradução legível**;
-2. opção **Ver texto original**;
-3. dentro do original, opção **Estudar o original**;
-4. no estudo, forma, lema, transliteração, morfologia, léxico e contexto.
+### Texto bíblico
 
-O idioma original é uma ferramenta de aprofundamento, não uma barreira para entrar no estudo.
+Fluxo obrigatório:
 
-## Princípios editoriais
+1. tradução;
+2. botão **Ver original**;
+3. original expandido;
+4. botão **Estudar o original** no topo da seção original;
+5. forma, lema, transliteração, morfologia, sintaxe, léxico, contexto e relações internas.
 
-1. **Texto antes da tese.** A conclusão vem depois das passagens necessárias.
-2. **Contexto antes da palavra isolada.** Léxico não substitui sintaxe, argumento ou contexto.
-3. **Texto com texto.** Ligações internas da Escritura devem ser visíveis e navegáveis.
-4. **Afirmação rastreável.** Alegações históricas recebem fonte direta sempre que possível.
-5. **Sem salto lógico.** Toda evidência tem limites declarados.
-6. **Sem autoridade emprestada.** “Um especialista disse” não encerra uma questão bíblica.
-7. **Divergência visível.** Quando o próprio dado textual admite mais de uma leitura possível, o site não esconde isso.
-8. **Progressão real.** Estudos posteriores podem pressupor somente o que etapas anteriores já construíram.
-9. **Sem manipulação.** O site distingue evidência, inferência e conclusão.
-10. **Auditável.** A origem dos dados, traduções e corpora deve permanecer documentada.
+O original aprofunda a leitura; não é requisito para compreender a linha principal.
 
-## O que existe na v0.1
+## UX é requisito funcional
 
-- nova página inicial do projeto e manifesto metodológico;
-- **Fundamento 01 — O que pode ser testado empiricamente?**, com amostra inicial de fontes diretas;
-- trilha geral de estudos;
-- catálogo já existente de **357 relações de profecia/cumprimento** preservado como módulo posterior;
-- fluxo de leitura corrigido para **tradução → original → estudo do original**;
-- estudo linguístico progressivo de hebraico e grego;
-- diretório de doações externas e botão de compartilhamento;
-- layout responsivo voltado a navegador, incluindo celular.
+UX design e UX experience são a principal restrição de produto. Uma funcionalidade correta que seja cansativa, confusa, escondida ou que faça o leitor perder contexto é considerada incompleta.
 
-## Fontes primárias/institucionais inaugurais
+Princípios: web first; mobile first sem estética de app; navegação por URLs; voltar do navegador funcionando; painéis contextuais sem perder o ponto de leitura; progressão visível; busca global; estados de carregamento; acessibilidade; `prefers-reduced-motion`; foco de teclado; zero becos sem saída; zero “abra dez abas para entender”.
 
-- Israel Antiquities Authority — Dead Sea Scrolls Digital Library: https://www.deadseascrolls.org.il/
-- Israel Museum — Great Isaiah Scroll: https://dss.collections.imj.org.il/isaiah_video
-- Codex Sinaiticus Project: https://www.codexsinaiticus.org/en/
-- British Museum — Taylor/Sennacherib Prism: https://www.britishmuseum.org/collection/object/W_1855-1003-1
-- British Museum — Lachish relief: https://www.britishmuseum.org/collection/object/W_1856-0909-14_7
-- British Museum — Cyrus Cylinder: https://www.britishmuseum.org/collection/object/W_1880-0617-1941
-- Israel Museum — Pontius Pilate inscription / Cradle of Christianity: https://www.imj.org.il/en/exhibitions/cradle-christianity
+## Arquivos
 
-Essas fontes sustentam **afirmações específicas** sobre objetos e manuscritos. Elas não são usadas como árbitros de doutrina.
+- `index.html` — website executável no GitHub Pages.
+- `README.md` — este manifesto.
+- `PLANEJAMENTO.md` — especificação detalhada da trilha, experiência, modelo de dados e roadmap.
 
-## Publicação no GitHub Pages
+## Estado da versão
 
-O ZIP da v0.1 foi preparado com todos os arquivos na raiz. Para publicar, envie o conteúdo extraído para a raiz do repositório configurado no GitHub Pages. O arquivo de entrada é `index.html`.
-
-A v0.1 ainda é uma fundação. O objetivo não é adicionar volume rapidamente, mas construir um sistema em que cada novo estudo possa ser auditado do início ao fim.
+A v0.2 é uma **versão de arquitetura**. O catálogo de 357 relações messiânicas permanece funcional. O botão de apoio foi corrigido. A trilha completa foi decomposta em 1118 estudos unitários. O conteúdo integral desses estudos será escrito em versões posteriores segundo o contrato editorial definido no planejamento.
 
 > “Que a graça do Senhor Jesus seja com todos.” — Apocalipse 22:21
