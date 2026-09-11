@@ -1,6 +1,19 @@
-# PLANEJAMENTO — Scriptura v0.2
+# PLANEJAMENTO — Scriptura v0.3
 
-**Escopo desta versão:** arquitetura editorial, arquitetura de UX e trilha completa de 1118 estudos unitários. Não é redação da prosa final.
+**Escopo desta versão:** corpus editorial executável com 1118 estudos unitários, arquitetura de UX, leitor bíblico interno, estudo do original, referências investigáveis e registro interno de fontes materiais/textuais. A opção editorial continua sendo **estudo guiado e estruturado**, não prosa ensaística inflada.
+
+
+## 0. Estado da v0.3
+
+A trilha deixou de ser apenas planejamento. Os **1118 estudos estão publicados como unidades estruturadas de investigação** em `estudos.js` e são renderizados pelo motor do `index.html`.
+
+Cada unidade implementa o contrato editorial com: tema único, pergunta nuclear, referência ou objeto de análise, orientação, percurso de investigação, pontos de observação, síntese de controle, limites, relações internas, sequência e fontes externas quando aplicáveis. O progresso é local e cada estudo possui rota compartilhável `#estudo-NNN`.
+
+A Bíblia funciona como infraestrutura interna do estudo. Uma referência abre o leitor contextual sem destruir o estado da página; a tradução vem primeiro, o original fica sob demanda e o estudo termo a termo só aparece a partir da seção original. Referências amplas oferecem navegação por livro/capítulo dentro do próprio site.
+
+Para evidência externa, a v0.3 registra fichas de fontes custodiante/primárias e mostra internamente dado, escopo da evidência e limites antes do link oficial. A existência de um link nunca substitui o conteúdo investigável do painel.
+
+**Definição de completo nesta fase:** nenhuma das 1118 entradas permanece como mero título ou placeholder. Completo não significa imutável: o corpus continua auditável e pode receber metadados mais precisos, novas fontes primárias, melhor glossário linguístico, fac-símiles legalmente incorporáveis e aprimoramentos de UX sem alterar o princípio metodológico.
 
 ## 1. Regras invioláveis
 
@@ -10,7 +23,7 @@
 - **Referência é uma interação, não um hyperlink.** Primeiro abre investigação interna; o link oficial fica dentro do painel como auditoria.
 - **UX é critério de aceite.** Conteúdo correto com fluxo ruim reprova a entrega.
 - **Web first.** URL, hash, histórico, compartilhamento, acessibilidade, responsividade e SEO continuam nativos.
-- **Sem prosa inflada.** Cada estudo futuro deve avançar a investigação, não repetir manifesto ou introduções genéricas.
+- **Sem prosa inflada.** Cada estudo deve avançar a investigação, não repetir manifesto ou introduções genéricas.
 - **Conclusão proporcional.** Separar demonstrado, corroborado, plausível, incerto e não demonstrável.
 - **Sem autoridade emprestada.** Credos, tradições, comentaristas e denominações podem ser objetos históricos, jamais fundamento hermenêutico.
 - **Todo dado tem proveniência.** Corpus, tradução, imagem, objeto, transcrição e metadado precisam de origem/licença registradas.
@@ -72,7 +85,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 
 ## 5. Trilha completa
 
-**Total planejado nesta versão: 1118 estudos.** Blocos abaixo são apenas agrupadores de navegação; cada linha numerada é um estudo independente.
+**Total publicado nesta versão: 1118 estudos.** Blocos abaixo são apenas agrupadores de navegação; cada linha numerada é um estudo independente.
 
 ### Bloco A — Método de investigação
 
@@ -285,7 +298,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **170. Narrativa**
 - **171. Lei**
 - **172. Poesia**
-- **173. Sabedoria**
+- **173. Sabedoria como princípio de leitura**
 - **174. Profecia**
 - **175. Evangelho**
 - **176. Epístola**
@@ -336,7 +349,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **216. Pó da terra** — `Gn 2:7`
 - **217. Fôlego de vida** — `Gn 2:7`
 - **218. Jardim do Éden** — `Gn 2:8`
-- **219. Árvore da vida** — `Gn 2:9`
+- **219. Árvore da vida no Éden** — `Gn 2:9`
 - **220. Árvore do conhecimento** — `Gn 2:9`
 - **221. Mandato do jardim** — `Gn 2:15`
 - **222. Proibição do fruto** — `Gn 2:16-17`
@@ -677,15 +690,15 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 *Objetivo do bloco:* Estudar categorias sapienciais e poéticas sem confundi-las com promessas proféticas.
 
 - **504. Temor do Senhor** — `Pv 1:7`
-- **505. Sabedoria** — `Pv 8`
+- **505. Sabedoria personificada em Provérbios 8** — `Pv 8`
 - **506. Insensatez** — `Pv`
 - **507. Justiça em Provérbios** — `Pv`
 - **508. Preguiça** — `Pv 6:6-11`
 - **509. Palavras** — `Pv 18:21`
 - **510. Dinheiro em Provérbios** — `Pv 11`
 - **511. Pobre em Provérbios** — `Pv 14:31`
-- **512. Disciplina** — `Pv 3:11-12`
-- **513. Amizade** — `Pv 17:17`
+- **512. Disciplina em Provérbios** — `Pv 3:11-12`
+- **513. Amizade em Provérbios** — `Pv 17:17`
 - **514. Casamento em Provérbios** — `Pv 5`
 - **515. Mulher virtuosa** — `Pv 31`
 - **516. Sofrimento de Jó** — `Jó`
@@ -715,7 +728,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **535. Santo de Israel** — `Is`
 - **536. Sinal de Emanuel** — `Is 7:14`
 - **537. Filho de Isaías 9** — `Is 9:6-7`
-- **538. Renovo de Jessé** — `Is 11`
+- **538. Renovo de Jessé em Isaías 11** — `Is 11`
 - **539. Remanescente** — `Is 10–11`
 - **540. Servo de Isaías 42** — `Is 42`
 - **541. Servo de Isaías 49** — `Is 49`
@@ -782,7 +795,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **597. Senhor à direita de Deus** — `Sl 110:1`
 - **598. Emanuel** — `Is 7:14`
 - **599. Filho governante** — `Is 9:6-7`
-- **600. Renovo de Jessé** — `Is 11:1`
+- **600. Renovo de Jessé na leitura messiânica** — `Is 11:1`
 - **601. Servo escolhido** — `Is 42:1`
 - **602. Luz das nações** — `Is 49:6`
 - **603. Servo obediente** — `Is 50:5-6`
@@ -828,7 +841,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **638. Anunciação a Maria** — `Lc 1:26-38`
 - **639. Magnificat** — `Lc 1:46-55`
 - **640. Nascimento de Jesus em Lucas** — `Lc 2`
-- **641. Pastores** — `Lc 2:8-20`
+- **641. Pastores em Belém** — `Lc 2:8-20`
 - **642. Simeão** — `Lc 2:25-35`
 - **643. Ana** — `Lc 2:36-38`
 - **644. Jesus no templo aos doze anos** — `Lc 2:41-52`
@@ -878,7 +891,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **678. Reino de Deus** — `Mc; Lc`
 - **679. Arrependimento no ensino de Jesus** — `Mt 4:17`
 - **680. Fé no ensino de Jesus** — `Mc 1:15`
-- **681. Novo nascimento** — `Jo 3:3-8`
+- **681. Novo nascimento no ensino de Jesus** — `Jo 3:3-8`
 - **682. Água viva** — `Jo 4:10-14`
 - **683. Pão da vida** — `Jo 6:35`
 - **684. Luz do mundo** — `Jo 8:12`
@@ -900,9 +913,9 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **700. Sal da terra** — `Mt 5:13`
 - **701. Luz do mundo nos discípulos** — `Mt 5:14-16`
 - **702. Jesus e a Lei** — `Mt 5:17-20`
-- **703. Ira** — `Mt 5:21-26`
+- **703. Ira no Sermão do Monte** — `Mt 5:21-26`
 - **704. Adultério do coração** — `Mt 5:27-30`
-- **705. Divórcio** — `Mt 5:31-32`
+- **705. Divórcio no Sermão do Monte** — `Mt 5:31-32`
 - **706. Juramentos** — `Mt 5:33-37`
 - **707. Não resistir ao perverso** — `Mt 5:38-42`
 - **708. Amar inimigos** — `Mt 5:43-48`
@@ -913,7 +926,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **713. Tesouros no céu** — `Mt 6:19-21`
 - **714. Olho como lâmpada** — `Mt 6:22-23`
 - **715. Dois senhores** — `Mt 6:24`
-- **716. Ansiedade** — `Mt 6:25-34`
+- **716. Ansiedade no ensino de Jesus** — `Mt 6:25-34`
 - **717. Julgar** — `Mt 7:1-5`
 - **718. Pérolas aos porcos** — `Mt 7:6`
 - **719. Pedir buscar bater** — `Mt 7:7-11`
@@ -926,7 +939,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **726. Segundo mandamento** — `Mt 22:39`
 - **727. Sábado no ensino de Jesus** — `Mc 2:27-28`
 - **728. Pureza do coração** — `Mc 7:14-23`
-- **729. Humildade** — `Mt 18:1-5`
+- **729. Humildade no ensino de Jesus** — `Mt 18:1-5`
 - **730. Perdão entre irmãos** — `Mt 18:21-35`
 - **731. Servo como grande** — `Mc 10:42-45`
 - **732. Riqueza** — `Mc 10:17-27`
@@ -1017,8 +1030,8 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **802. Conspiração para matar Jesus** — `Mt 26:1-5`
 - **803. Traição de Judas** — `Mt 26:14-16`
 - **804. Última ceia** — `Mt 26:17-30`
-- **805. Pão na ceia** — `Mt 26:26`
-- **806. Cálice na ceia** — `Mt 26:27-29`
+- **805. Pão na instituição da ceia** — `Mt 26:26`
+- **806. Cálice na instituição da ceia** — `Mt 26:27-29`
 - **807. Nova aliança no sangue** — `Lc 22:20`
 - **808. Lava-pés** — `Jo 13`
 - **809. Novo mandamento** — `Jo 13:34`
@@ -1113,8 +1126,8 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **883. Reconciliação** — `2Co 5:18-21`
 - **884. Substituição** — `2Co 5:21`
 - **885. Expiação** — `Hb 9`
-- **886. Perdão** — `Ef 1:7`
-- **887. Novo nascimento** — `1Pe 1:23`
+- **886. Perdão como resultado da redenção** — `Ef 1:7`
+- **887. Novo nascimento em 1 Pedro** — `1Pe 1:23`
 - **888. Regeneração** — `Tt 3:5`
 - **889. Adoção** — `Rm 8:15`
 - **890. Santificação** — `1Ts 4:3`
@@ -1122,7 +1135,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **892. União com Cristo** — `Rm 6`
 - **893. Morte com Cristo** — `Rm 6:3-8`
 - **894. Ressurreição com Cristo** — `Cl 3:1`
-- **895. Nova criação** — `2Co 5:17`
+- **895. Nova criação em 2 Coríntios 5** — `2Co 5:17`
 - **896. Vida eterna** — `Jo 3:16`
 - **897. Segurança em Cristo** — `Rm 8:31-39`
 - **898. Perseverança** — `Hb 10:36`
@@ -1186,14 +1199,14 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **946. Batismo** — `Rm 6:3-4`
 - **947. Batismo em Atos** — `At 2:38-41`
 - **948. Ceia do Senhor** — `1Co 11:23-26`
-- **949. Pão na ceia** — `1Co 10:16`
-- **950. Cálice na ceia** — `1Co 10:16`
+- **949. Pão na comunhão da ceia** — `1Co 10:16`
+- **950. Cálice na comunhão da ceia** — `1Co 10:16`
 - **951. Unidade** — `Ef 4:1-6`
-- **952. Disciplina** — `Mt 18:15-20`
+- **952. Disciplina na igreja** — `Mt 18:15-20`
 - **953. Restauração do pecador** — `Gl 6:1`
 - **954. Presbíteros** — `1Tm 3; Tt 1`
 - **955. Diáconos** — `1Tm 3:8-13`
-- **956. Pastores** — `Ef 4:11`
+- **956. Pastores como liderança da igreja** — `Ef 4:11`
 - **957. Mestres** — `Ef 4:11`
 - **958. Evangelistas** — `Ef 4:11`
 - **959. Apóstolos** — `Ef 4:11`
@@ -1206,7 +1219,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **966. Oferta para necessitados** — `2Co 8–9`
 - **967. Missão** — `Mt 28:18-20`
 - **968. Envio** — `At 13:1-3`
-- **969. Hospitalidade** — `Rm 12:13`
+- **969. Hospitalidade como prática comunitária** — `Rm 12:13`
 - **970. Viúvas** — `1Tm 5`
 - **971. Órfãos** — `Tg 1:27`
 - **972. Pobres** — `Tg 2`
@@ -1222,10 +1235,10 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **977. Amor a Deus** — `Mt 22:37`
 - **978. Amor ao próximo** — `Mt 22:39`
 - **979. Amor aos inimigos** — `Mt 5:44`
-- **980. Perdão** — `Cl 3:13`
+- **980. Perdão mútuo em Colossenses** — `Cl 3:13`
 - **981. Misericórdia** — `Lc 6:36`
 - **982. Justiça** — `Mq 6:8`
-- **983. Humildade** — `Fp 2:3`
+- **983. Humildade em Filipenses 2** — `Fp 2:3`
 - **984. Mansidão** — `Gl 5:23`
 - **985. Paciência** — `Tg 5:7`
 - **986. Bondade** — `Gl 5:22`
@@ -1233,7 +1246,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **988. Domínio próprio** — `Gl 5:23`
 - **989. Alegria** — `Fp 4:4`
 - **990. Paz** — `Fp 4:6-7`
-- **991. Ansiedade** — `Fp 4:6`
+- **991. Ansiedade em Filipenses** — `Fp 4:6`
 - **992. Oração** — `1Ts 5:17`
 - **993. Jejum** — `Mt 6:16-18`
 - **994. Generosidade** — `2Co 9:7`
@@ -1243,7 +1256,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **998. Descanso** — `Hb 4`
 - **999. Fala** — `Ef 4:29`
 - **1000. Mentira** — `Ef 4:25`
-- **1001. Ira** — `Ef 4:26`
+- **1001. Ira na vida cristã** — `Ef 4:26`
 - **1002. Roubo** — `Ef 4:28`
 - **1003. Embriaguez** — `Ef 5:18`
 - **1004. Sexualidade** — `1Co 6:12-20`
@@ -1251,12 +1264,12 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **1006. Adultério** — `Hb 13:4`
 - **1007. Casamento** — `Ef 5:22-33`
 - **1008. Solteirice** — `1Co 7`
-- **1009. Divórcio** — `1Co 7; Mt 19`
+- **1009. Divórcio na instrução apostólica** — `1Co 7; Mt 19`
 - **1010. Pais** — `Ef 6:4`
 - **1011. Filhos** — `Ef 6:1-3`
 - **1012. Viúvez** — `1Tm 5`
-- **1013. Amizade** — `Jo 15:13-15`
-- **1014. Hospitalidade** — `Hb 13:2`
+- **1013. Amizade segundo Jesus** — `Jo 15:13-15`
+- **1014. Hospitalidade ao estrangeiro** — `Hb 13:2`
 - **1015. Governo civil** — `Rm 13:1-7`
 - **1016. Obediência a Deus diante do Estado** — `At 5:29`
 - **1017. Justiça para o pobre** — `Tg 2`
@@ -1310,7 +1323,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **1060. Fim do luto** — `Ap 21:4`
 - **1061. Fim da dor** — `Ap 21:4`
 - **1062. Rio da vida** — `Ap 22:1`
-- **1063. Árvore da vida** — `Ap 22:2`
+- **1063. Árvore da vida na esperança futura** — `Ap 22:2`
 
 ### Bloco AJ — Apocalipse
 
@@ -1362,7 +1375,7 @@ Uma evidência essencial só entra em um estudo publicado quando o site consegue
 - **1107. Mil anos** — `Ap 20:1-6`
 - **1108. Derrota final de Satanás** — `Ap 20:7-10`
 - **1109. Grande trono branco** — `Ap 20:11-15`
-- **1110. Nova criação** — `Ap 21:1-8`
+- **1110. Nova criação em Apocalipse 21** — `Ap 21:1-8`
 - **1111. Cidade santa** — `Ap 21:9-27`
 - **1112. Rio da água da vida** — `Ap 22:1`
 - **1113. Árvore da vida em Apocalipse 22** — `Ap 22:2`
@@ -1407,55 +1420,43 @@ Uma `reference` nunca contém somente `url`. Ela aponta para um objeto interno:
 }
 ```
 
-## 7. Roadmap técnico/editorial
+## 7. Estado técnico/editorial e próximos gates
 
-### v0.2 — Arquitetura (esta entrega)
-- decompor a trilha em estudos atômicos;
-- corrigir apoio;
-- introduzir especificação de referência interna;
-- manter catálogo messiânico existente;
-- documentar UX como gate de aceite.
+### v0.2 — Arquitetura — concluído
+- trilha de 1118 estudos atômicos definida;
+- apoio corrigido;
+- referência interna especificada;
+- catálogo messiânico preservado;
+- UX formalizada como gate de aceite.
 
-### v0.3 — Motor de estudos
-- separar currículo e dados do HTML;
-- criar roteamento por estudo;
-- criar busca global;
-- criar progresso local;
-- criar painel universal de referência.
-
-### v0.4 — Bíblia como infraestrutura
+### v0.3 — Corpus executável — concluído nesta entrega
+- currículo e dados editoriais separados do HTML;
+- 1118 estudos estruturados e navegáveis;
+- roteamento por estudo;
+- busca e filtros da trilha;
+- progresso local;
+- painel universal de referência;
 - leitor bíblico interno reutilizável;
-- sincronização de versão;
-- original sob demanda;
-- estudo morfológico;
-- comparação lado a lado;
-- cache e licenças documentadas.
+- tradução → original → estudo do original;
+- registro interno de fontes materiais/textuais;
+- relações internas e sequência entre estudos;
+- preservação do módulo de 357 relações messiânicas.
 
-### v0.5 — Evidência primária
-- ingestão licenciada de fac-símiles e imagens;
-- `ManuscriptViewer`;
-- `InscriptionViewer`;
-- `ArtifactViewer`;
-- proveniência e datação estruturadas;
-- política de evidência contestada.
-
-### v0.6 — Blocos A–H
-- escrever método, evidência, transmissão, tradução, cânon e leitura.
-
-### v0.7 — Blocos I–V
-- escrever narrativa do AT, poesia, profetas e linhas messiânicas.
-
-### v0.8 — Blocos W–AC
-- escrever Evangelhos, ensino, parábolas, sinais, paixão, ressurreição e ascensão.
-
-### v0.9 — Blocos AD–AJ
-- escrever Atos, salvação, Espírito, igreja, vida cristã, esperança e Apocalipse.
+### Gate seguinte — auditoria de profundidade
+- revisar referências bíblicas unidade por unidade;
+- aumentar o número de relações internas explícitas onde o corpus exigir;
+- ampliar glossários hebraico/aramaico/grego sem transformar léxico em interpretação;
+- incorporar fac-símiles/imagens apenas quando licença e proveniência permitirem;
+- revisar cada fonte material contra o catálogo custodiante mais direto disponível;
+- registrar variantes textuais relevantes com testemunhos lado a lado;
+- testar navegação, foco, histórico, leitura longa e desempenho em celulares reais.
 
 ### v1.0 — Auditoria integral
-- nenhum estudo sem fontes internas navegáveis;
+- nenhum estudo sem referências internas navegáveis quando houver texto-base;
 - nenhuma conclusão doutrinária dependente de autoridade externa;
-- nenhuma referência essencial reduzida a link;
-- auditoria de licenças, acessibilidade, mobile, performance e coerência;
+- nenhuma evidência essencial reduzida a hyperlink;
+- licenças e proveniência auditadas;
+- acessibilidade, mobile, performance e coerência auditados;
 - trilha termina em Apocalipse 22:21.
 
 ## 8. Checklist obrigatório por estudo

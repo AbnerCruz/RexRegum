@@ -1,4 +1,4 @@
-# Scriptura — v0.2
+# Scriptura — v0.3
 
 > Um estudo bíblico progressivo, investigável e centrado na própria Escritura.
 
@@ -6,59 +6,97 @@
 
 Scriptura é um **website de investigação bíblica**. Não é catálogo de links, feed de artigos, enciclopédia de opiniões nem interface de aplicativo disfarçada de site. O objetivo é permitir que o leitor examine o texto, as relações internas da Escritura e, quando uma afirmação for empiricamente verificável, a própria evidência relevante **sem abandonar a experiência de estudo**.
 
-### Autoridade e método
+## Autoridade e método
 
-Para doutrina, teologia e hermenêutica, o projeto trabalha em regime **sola Scriptura**: nenhuma conclusão é fundamentada em credo, concílio, denominação, comentarista, pai da igreja ou autoridade religiosa externa. A interpretação deve ser construída com texto, contexto, gramática e relações internas da Escritura.
+Para doutrina, teologia e hermenêutica, o projeto trabalha em regime **sola Scriptura**: nenhuma conclusão é fundamentada em credo, concílio, denominação, comentarista, pai da igreja ou autoridade religiosa externa. A interpretação é construída com texto, contexto, gramática e relações internas da própria Escritura.
 
 Fontes externas são admitidas somente para fatos externos e testáveis: manuscritos, inscrições, objetos, cronologia, geografia, história material, proveniência, datação e estado de conservação. Elas servem para **examinar o dado**, nunca para decidir doutrina.
 
-### Um estudo = um tema
+A regra metodológica é simples: observar primeiro, inferir depois e concluir apenas até onde os dados permitem. O site distingue explicitamente o que uma evidência demonstra, o que apenas corrobora, o que permanece incerto e o que a evidência não pode demonstrar.
 
-Nenhum estudo divide sua unidade com outro tema. “Lei, sacerdócio, sacrifício e santidade”, por exemplo, não é um estudo válido: são temas independentes. Blocos e fases podem agrupar estudos apenas para navegação.
+## Um estudo = um tema
 
-A trilha v0.2 contém **1118 estudos atômicos planejados**, distribuídos em 36 blocos de progressão. A numeração organiza a aprendizagem; não atribui maior autoridade a estudos posteriores.
+Nenhum estudo divide sua unidade com outro tema. Blocos e fases agrupam estudos apenas para orientação e progressão.
 
-### Tudo investigável dentro do site
+A trilha v0.3 contém **1.118 estudos unitários publicados**, distribuídos em 36 blocos. Cada estudo possui rota própria e uma estrutura de investigação completa:
 
-Uma referência nunca deve funcionar apenas como saída para outro website. Ao ser ativada, ela abre um **painel interno de investigação** adequado ao tipo de fonte:
+- pergunta nuclear;
+- texto-base ou objeto de investigação;
+- orientação de escopo;
+- percurso passo a passo;
+- pontos de observação;
+- síntese de controle;
+- limites explícitos da conclusão;
+- relações internas com outros estudos;
+- estudo anterior e seguinte;
+- fontes materiais/textuais, quando aplicáveis;
+- progresso local no dispositivo.
 
-- passagem bíblica → tradução → original → estudo do original;
-- manuscrito → imagem/fac-símile → transcrição → variante → metadados → proveniência;
-- inscrição → imagem → linhas → transliteração → tradução → contexto material;
-- artefato → galeria/zoom → ficha técnica → datação → localização → limites da inferência;
-- cronologia → linha do tempo interna;
-- geografia → mapa interno;
-- relação textual → comparação lado a lado;
-- fonte institucional → ficha local da fonte, licença, acervo e botão secundário para abrir a página oficial.
+A estrutura não substitui a leitura bíblica por uma resposta pronta. Ela organiza a investigação para que o estudante possa conferir cada conclusão.
 
-O link externo continua existindo para auditoria, mas **não é o produto**. Uma evidência que não possa ser exibida ou representada legalmente de modo suficiente dentro do site não deve ser usada como peça essencial do argumento até existir uma solução de licenciamento/incorporação.
+## Tudo investigável dentro do site
 
-### Texto bíblico
+Uma referência nunca deve funcionar apenas como saída para outro website. Ao ser ativada, abre um painel contextual dentro do próprio Scriptura.
+
+### Referências bíblicas
 
 Fluxo obrigatório:
 
 1. tradução;
 2. botão **Ver original**;
-3. original expandido;
+3. original hebraico/aramaico ou grego;
 4. botão **Estudar o original** no topo da seção original;
-5. forma, lema, transliteração, morfologia, sintaxe, léxico, contexto e relações internas.
+5. forma, lema, transliteração, morfologia, léxico auxiliar e contexto;
+6. retorno ao estudo exatamente no ponto de origem.
 
-O original aprofunda a leitura; não é requisito para compreender a linha principal.
+O leitor bíblico interno cobre a trilha completa e permite navegar por livro e capítulo quando a referência é ampla.
+
+### Evidência material e textual
+
+Manuscritos, inscrições e artefatos entram por fichas internas que apresentam, quando disponível:
+
+- identificação e custodiante;
+- datação e proveniência;
+- dado incorporado ao estudo;
+- o que a evidência permite concluir;
+- o que não permite concluir sozinha;
+- regra de uso dentro do Scriptura;
+- link oficial como **auditoria secundária**, não como conteúdo principal.
+
+Uma fonte externa não recebe autoridade hermenêutica por estar em museu, universidade ou instituição acadêmica. Sua função é documentar o dado externo que ela custodia.
 
 ## UX é requisito funcional
 
-UX design e UX experience são a principal restrição de produto. Uma funcionalidade correta que seja cansativa, confusa, escondida ou que faça o leitor perder contexto é considerada incompleta.
+UX design e UX experience são a principal restrição de produto. Uma funcionalidade correta que seja cansativa, confusa, escondida ou faça o leitor perder contexto é considerada incompleta.
 
-Princípios: web first; mobile first sem estética de app; navegação por URLs; voltar do navegador funcionando; painéis contextuais sem perder o ponto de leitura; progressão visível; busca global; estados de carregamento; acessibilidade; `prefers-reduced-motion`; foco de teclado; zero becos sem saída; zero “abra dez abas para entender”.
+A v0.3 implementa:
 
-## Arquivos
+- navegação web por URL/hash e histórico do navegador;
+- leitor de estudo em página, sem transformar o website em shell de aplicativo;
+- referências abertas em painéis contextuais;
+- pesquisa e filtros da trilha;
+- progresso local sem conta;
+- retomada da leitura;
+- estudos relacionados;
+- navegação anterior/próximo;
+- profundidade progressiva: tradução → original → análise;
+- layout responsivo e foco em leitura;
+- estados de foco e `prefers-reduced-motion`;
+- carregamento sob demanda de corpora pesados.
 
-- `index.html` — website executável no GitHub Pages.
+## Arquivos principais
+
+- `index.html` — website e motor de leitura/investigação.
+- `estudos.js` — currículo canônico dos 1.118 estudos, motor editorial declarativo e registro de fontes primárias/institucionais.
 - `README.md` — este manifesto.
-- `PLANEJAMENTO.md` — especificação detalhada da trilha, experiência, modelo de dados e roadmap.
+- `PLANEJAMENTO.md` — especificação da trilha, contrato editorial, UX e critérios de auditoria.
 
 ## Estado da versão
 
-A v0.2 é uma **versão de arquitetura**. O catálogo de 357 relações messiânicas permanece funcional. O botão de apoio foi corrigido. A trilha completa foi decomposta em 1118 estudos unitários. O conteúdo integral desses estudos será escrito em versões posteriores segundo o contrato editorial definido no planejamento.
+A **v0.3 é a primeira versão com a trilha integral executável**. Todos os 1.118 temas planejados possuem unidade de estudo navegável e investigável. O antigo catálogo de 357 relações messiânicas permanece disponível como módulo especializado.
 
-> “Que a graça do Senhor Jesus seja com todos.” — Apocalipse 22:21
+“Completo” aqui significa que nenhuma entrada da trilha permanece apenas como título ou placeholder: todas possuem estrutura de estudo, percurso, observações, síntese, limites e relações. Isso não transforma o corpus em algo imutável; fontes, metadados, traduções, análise linguística e UX continuam sujeitos a auditoria e refinamento quando houver dados melhores.
+
+O projeto não aceita doações. O painel de apoio direciona o leitor a organizações humanitárias e convida, quanto ao Scriptura, apenas ao compartilhamento do projeto.
+
+> **Que a graça do Senhor Jesus seja com todos.** — Apocalipse 22:21
